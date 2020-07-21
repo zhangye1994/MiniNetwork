@@ -10,7 +10,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        RetrofitHelper.init("\\\\DESKTOP-E0P36UP\\shares\\");
+        RetrofitHelper.init("http://v.juhe.cn/");
         api = RetrofitHelper.create(Api.class);
     }
 }
