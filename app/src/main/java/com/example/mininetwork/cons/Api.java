@@ -1,4 +1,4 @@
-package com.example.mininetwork.net;
+package com.example.mininetwork.cons;
 
 import com.example.mininetwork.bean.WeatherBean;
 

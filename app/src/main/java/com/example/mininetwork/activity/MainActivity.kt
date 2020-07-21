@@ -1,8 +1,10 @@
-package com.example.mininetwork
+package com.example.mininetwork.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.mininetwork.cons.MyApplication
+import com.example.mininetwork.R
 import com.example.mininetwork.bean.WeatherBean
 import com.example.mininetwork.net.BaseObserver
 import com.google.gson.Gson

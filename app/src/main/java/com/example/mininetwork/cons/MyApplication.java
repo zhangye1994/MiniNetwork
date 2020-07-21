@@ -1,8 +1,7 @@
-package com.example.mininetwork;
+package com.example.mininetwork.cons;
 
 import android.app.Application;
 
-import com.example.mininetwork.net.Api;
 import com.example.mininetwork.net.RetrofitHelper;
 
 public class MyApplication extends Application {
@@ -13,4 +12,9 @@ public class MyApplication extends Application {
         RetrofitHelper.init("http://v.juhe.cn/");
         api = RetrofitHelper.create(Api.class);
     }
+
+    public static Api getApi(){
+        return RetrofitHelper.create(Api.class);
+    }
+
 }
